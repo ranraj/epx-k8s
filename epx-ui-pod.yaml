@@ -7,4 +7,13 @@ metadata:
 spec:
   containers:
   - name: epx-ui
-    image: ranjithrajd/epx-ui:latest   
+    image: ranjithrajd/epx-ui:latest
+    ports:
+    - containerPort: 9090
+    resources:
+      limits:
+        memory: "900Mi"
+        cpu: "900m"
+      requests:
+        memory: "700Mi"
+        cpu: "600m"
