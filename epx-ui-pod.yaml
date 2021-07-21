@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: epx-ui-pod
+  labels:
+    component: web
+spec:
+  containers:
+  - name: epx-ui
+    image: ranjithrajd/epx-ui:latest
+    ports:
+    - containerPort: 8080    
