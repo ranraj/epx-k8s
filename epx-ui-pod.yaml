@@ -7,6 +7,4 @@ metadata:
 spec:
   containers:
   - name: epx-ui
-    image: ranjithrajd/epx-ui:latest
-    ports:
-    - containerPort: 8080    
+    image: ranjithrajd/epx-ui:latest   
